@@ -3,8 +3,7 @@ spring:
     active: dev
 ---
 spring:
-  profiles:
-    active: dev
+  profiles: dev
   application:
     name: ZUUL-GATEWAY
 server:
@@ -24,8 +23,7 @@ zuul:
   prefix: /aigou   # 访问前缀
 ---
 spring:
-  profiles:
-    active: test
+  profiles: test
   application:
     name: ZUUL-GATEWAY-TEST
 server:
